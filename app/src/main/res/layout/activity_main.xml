@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #f5e494 "
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Math Quiz"
+        android:textColor=" #143795 "
+        android:textSize="31sp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/easy_btn"
+        android:text="Easy"
+        android:backgroundTint=" #7caef6  "
+        android:layout_above="@+id/meduim_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium"
+        android:backgroundTint=" #7caef6  "
+        android:id="@+id/meduim_btn"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard"
+        android:backgroundTint=" #7caef6  "
+        android:id="@+id/hard_btn"
+        android:layout_below="@+id/meduim_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"/>
+</RelativeLayout>
